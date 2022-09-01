@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* normal fonts */
+@font-face {
+    font-family: gotham;
+    font-weight: normal;
+    src: url(/fonts/GothamRoundedMedium_21022.ttf);
+}
+/* bold font */
+@font-face {
+    font-family: gotham;
+    font-weight: bold;
+    src: url(/fonts/GothamRoundedBold_21016.ttf);
+}
+body{
+    font-family: gotham;
+    font-weight: normal;
+}
