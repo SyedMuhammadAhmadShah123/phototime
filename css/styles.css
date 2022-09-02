@@ -19,3 +19,9 @@ body{
     font-family: gotham;
     font-weight: normal;
 }
+header[class='container-fluid']{
+   background-image: url(/assets/images/header.jpg);
+}
+section[class='container-fluid']{
+   background-image: url(/assets/images/femalehand-with-mobile.png);
+}
