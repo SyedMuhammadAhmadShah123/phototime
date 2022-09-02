@@ -18,10 +18,32 @@
 body{
     font-family: gotham;
     font-weight: normal;
+    /* color: white; */
 }
 header[class='container-fluid']{
    background-image: url(/assets/images/header.jpg);
 }
-section[class='container-fluid']{
+section[id='container-4th']{
    background-image: url(/assets/images/femalehand-with-mobile.png);
 }
+.container-fluid{
+    padding:0 1em;
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid red;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+ }
+ .col-12{
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid green; */
+
+ }
