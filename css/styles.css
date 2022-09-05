@@ -5,6 +5,7 @@
 }
 :root{
     --Dark-Cyan-color:rgb(22, 160, 134);
+    --Off-White-color:rgb(245, 246, 247);
 }
 /* normal fonts */
 @font-face {
@@ -151,9 +152,10 @@ button:active {
 
   #container-fluid-2nd{
     /* border: 2px solid red; */
-    height: 70vh;
+    height: 65vh;
     display: flex;
     justify-content: center;
+    background-color: var(--Off-White-color);
 
   }
   #container-fluid-2nd  .col-6{
@@ -193,4 +195,17 @@ button:active {
 #container-fluid-3rd pre{
     /* border: 2px solid green; */
     font-size: xx-large;
+}
+#container-fluid-4th{
+    /* border: 2px solid red; */
+    height: 100vh;
+    background-color: var(--Off-White-color);
+    display: flex;
+    align-items: center;
+}
+#container-fluid-4th .community-row{
+    /* border: 2px solid yellow; */
+    display: grid;
+    gap: 2em;
+    justify-items: center;
 }
