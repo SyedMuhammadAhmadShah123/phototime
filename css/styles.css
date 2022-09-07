@@ -279,4 +279,36 @@ button:active {
     width: 100%;
     padding-bottom: 3vh;
 }
+.button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    /* border: 2px solid red; */
 
+}
+.button button:hover, .button a:hover{
+    cursor: pointer;
+    transform: translateY(0px);
+    background-color:rgba(22, 160, 135, 0.85) ;
+}
+.button-icon
+{
+    margin-top: 2.1em;
+    background-color:rgb(15, 123, 103);
+    padding: 0.7em;
+    border-bottom-right-radius: 2px !important;
+    border-top-right-radius: 2px !important;  
+}
+.btn1, .btn2{
+    /* border: 2px solid red; */
+    margin: 5em 1em;
+}
+.btn-icon1, .btn-icon2{
+    /* border: 2px solid red; */
+    position: relative;
+    margin: 0 1em;
+    right: 1.9em;
+}
