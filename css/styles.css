@@ -277,7 +277,7 @@ button:active {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-bottom: 3vh;
+    padding: 3vh 0;
 }
 .button
 {
